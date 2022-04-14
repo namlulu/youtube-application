@@ -1,41 +1,37 @@
-# electron-quick-start
+# Youtube Music Application
 
-**Clone and run for a quick way to see Electron in action.**
+**Youtbue Music 도대체 어플리케이션 왜 안 만드냐.**
 
-This is a minimal Electron application based on the [Quick Start Guide](https://electronjs.org/docs/latest/tutorial/quick-start) within the Electron documentation.
+웹 기반으로만 서비스가 제공되어서 탭관리할 때, 불편한 점이 있습니다. 자고로 멜론이나 다른 뮤직 서비스들은 어플리케이션 기반이라서 계속해서 음악을 들을 수 있는데, 웹 서핑을 많이 하는 저는 실수로 꺼버리는 일이 잦았습니다. 그래서 직접 만들었습니다!
 
-A basic Electron application needs just these files:
+현재 구현된 사항은 다음과 같습니다.
 
-- `package.json` - Points to the app's main file and lists its details and dependencies.
-- `main.js` - Starts the app and creates a browser window to render HTML. This is the app's **main process**.
-- `index.html` - A web page to render. This is the app's **renderer process**.
+- `Youtube Music 서비스를 어플리케션으로 설치`
+- `OS와 상관없이 빌드 가능하도록 개발`
+- `유튜브 아이콘 활용`
 
-You can learn more about each of these components within the [Quick Start Guide](https://electronjs.org/docs/latest/tutorial/quick-start).
+사용한 프레임워크
 
-## To Use
+[Quick Start Guide](https://electronjs.org/docs/latest/tutorial/quick-start) /
+[Electron Forge](https://www.electronforge.io/).
 
-To clone and run this repository you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
+## 사용법
+
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/download/), [npm](http://npmjs.com)
 
 ```bash
 # Clone this repository
-git clone https://github.com/electron/electron-quick-start
+git clone https://github.com/namlulu/youtube-application
 # Go into the repository
-cd electron-quick-start
+cd youtube-application
 # Install dependencies
-npm install
+yarn install
 # Run the app
-npm start
+yarn start
 ```
 
-Note: If you're using Linux Bash for Windows, [see this guide](https://www.howtogeek.com/261575/how-to-run-graphical-linux-desktop-applications-from-windows-10s-bash-shell/) or use `node` from the command prompt.
-
-## Resources for Learning Electron
-
-- [electronjs.org/docs](https://electronjs.org/docs) - all of Electron's documentation
-- [electronjs.org/community#boilerplates](https://electronjs.org/community#boilerplates) - sample starter apps created by the community
-- [electron/electron-quick-start](https://github.com/electron/electron-quick-start) - a very basic starter Electron app
-- [hokein/electron-sample-apps](https://github.com/hokein/electron-sample-apps) - small demo apps for the various Electron APIs
+[see this guide](https://www.howtogeek.com/261575/how-to-run-graphical-linux-desktop-applications-from-windows-10s-bash-shell/)
 
 ## License
 
-[CC0 1.0 (Public Domain)](LICENSE.md)
+[Beerware](https://spdx.org/licenses/Beerware.html)
